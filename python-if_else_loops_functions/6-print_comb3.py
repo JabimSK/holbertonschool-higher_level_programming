@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 i = 1
 for x in range(9):
     for y in range(i, 10):
