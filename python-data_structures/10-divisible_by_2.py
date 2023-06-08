@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-
 def divisible_by_2(my_list=[]):
     """
     find the values divisible by two in list
@@ -10,9 +9,6 @@ def divisible_by_2(my_list=[]):
         list of True or False
     """
     return list(map(lambda x: False if x % 2 else True, my_list))
-
-
-
 
 
 if __name__ == '__main__':
