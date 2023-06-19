@@ -21,7 +21,7 @@ integers/floats")
             if type(i) != int and type(i) != float:
                 raise TypeError("Matrix must be a matrix (list of lists) of \
 integers/floats")
- 
+
     lr = []
     for r in matrix:
         lr.append(len(r))
