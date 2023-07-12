@@ -7,6 +7,7 @@ and to avoid duplicating the same code (by extension, same bugs)
 import json
 import turtle
 
+
 class Base:
     """
     implementation
@@ -16,6 +17,7 @@ class Base:
 
     def __init__(self, id=None):
         """initialization
+
         Args:
             id (int, optional): object id. Defaults to None.
         """
